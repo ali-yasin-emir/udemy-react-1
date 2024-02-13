@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import Modal from "./components/Modal";
 
 const Home = () => {
   return (
-    <div>Home</div>
-  )
-}
+    <div className="bg-[#222222] flex h-screen">
+        <Modal />
+    </div>
+  );
+};
 
-export default Home
+export default Home;
